@@ -9,7 +9,7 @@ const {
 
 const router = Router();
 
-// localhost:3000/usuarios
+// localhost:3001/usuarios
 router.get("/", usuariosGet);
 router.post("/", usuariosPost);
 router.put("/", usuariosPut);
