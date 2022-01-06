@@ -113,7 +113,7 @@ const usuarioSignin = async (req = request, res = response) => {
         const usuarios = await conn.query(usuariosQueries.getUsuarioByEmail, [email],);
 
         if (usuarios.length === 0) {
-            res.status(404).json({ msg: `No se encontró el usuario ${email}.` });
+            res.status(404).json({ msg: "No se encontró el usuario ${email}." });
             return;
         }
 
