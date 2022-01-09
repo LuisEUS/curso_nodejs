@@ -1,6 +1,6 @@
 const usuariosQueries = {
     insertUsuario: `
-    INSERT INT
+    INSERT INTO
     usuarios(
         nombre,
         email,
